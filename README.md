@@ -353,10 +353,7 @@ All images were used from unnamed sources on the internet.
 Cannot recall specifically where images were sourced from.
 
 ## Contacts
-* Brandon Chan - bchan145@my.bcit.ca    
-* Sahil Rai - srai92@my.bcit.ca
-* Howard Lai - hali64@my.bcit.ca
-
+Sahil Rai : - raisahil580@gmail.com
 
 ## Acknowledgements
 * <a href="https://fontawesome.com/">Font Awesome</a>

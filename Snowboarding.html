@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title id="pagename">Halfpipe</title>
+  <meta name="comp1800 template" content="BBY-02 COMP1800 app">
+
+  <!------------------------>
+  <!-- Required meta tags -->
+  <!------------------------>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!------------------------------------------>
+  <!-- Bootstrap Library CSS JS CDN go here -->
+  <!------------------------------------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-------------------------------------------------------->
+  <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
+  <!-------------------------------------------------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+
+  <!-------------------------------------------->
+  <!-- Other libraries and styles of your own -->
+  <!-------------------------------------------->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="img/x-icon" href="./images/logo.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- nav -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./styles/eventspage.css">
+
+
+</head>
+
+<body>
+  <nav id="navbar"></nav>
+
+  <div id="container">
+
+    <div class="container align-content-center justify-content-center">
+
+      <!-- Card is populated by functionality written in eventspage.js -->
+      <div class="card">
+        <div class="card-body">
+          <div id="heading">
+            <img id="image" src="" alt="">
+            <div id="sportheading">
+              <h2 id="sport"></h2>
+              <h4 id="event"></h4>
+              <h4 id="gender"></h4>
+            </div>
+          </div>
+
+          <div id="section1">
+            <h4 id="type"></h4>
+            <h4 id="date"></h4>
+            <h4 id="time"></h4>
+            <h4 id="location"></h4>
+          </div>
+
+          <div id="participants">
+            <h2>Participants:</h2>
+
+            <!-- Card populated from template and Snowboarding.js goes here -->
+            <div class="container align-content-center justify-content-center">
+              <div id="Athletes-go-here" class="row row-cols-auto justify-content-center">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+   <!-- Template used in Snowboarding.js to popualate the athletes information -->
+  <template id="AthletesTemplate">
+    <div class="athcard">
+      <img class="card-image" src=" ..." alt="...">
+      <div class="card-content">
+        <h4 class="card-firstname"></h4>
+        <h4 class="card-lastname"></h4>
+        <p class="card-country">Country</p>
+      </div>
+    </div>
+  </template>
+
+</body>
+<!---------------------------------------------->
+<!-- Your own JavaScript functions go here    -->
+<!---------------------------------------------->
+<script src="./scripts/firebaseAPI_TEAM02.js"></script>
+<script src="./scripts/skeleton.js"></script>
+<script src="./scripts/eventspage.js"></script>
+<script src="./scripts/Snowboarding.js"></script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>

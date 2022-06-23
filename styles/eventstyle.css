@@ -1,0 +1,32 @@
+img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+h1{
+    text-align:center;
+    margin:1%;
+}
+
+.mx-2 {
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
+.card-body{
+    text-align: center;
+    padding: 0%;
+}
+
+.card-title{
+    text-align:center !important;
+}
+
+#container{
+    margin: 1%;
+}
+
+.material-icons{
+    cursor: pointer; 
+}

@@ -1,4 +1,4 @@
-## COMP 1800 BBY-02 Web app: Olympic Record
+## Olympic Record
 
 * [General info](#general-info)
 * [Technologies](#technologies)
